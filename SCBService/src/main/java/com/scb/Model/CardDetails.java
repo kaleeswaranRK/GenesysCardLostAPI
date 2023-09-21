@@ -1,8 +1,5 @@
 package com.scb.Model;
 
-import org.springframework.stereotype.Component;
-
-@Component
 public class CardDetails {
 private String cardNum;
 private String relID;
@@ -18,7 +15,6 @@ public String getRelID() {
 public void setRelID(String relID) {
 	this.relID = relID;
 }
-
 
 
 }
